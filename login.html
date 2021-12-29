@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/menu_login.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="submenu.js"></script>
+</head>
+<body>
+    <nav>
+        <ul class="menu">
+            <li>
+                <a class="home" href="javascript://">Home</a>
+                <ul class="ul-submenu">
+                    <li><a href="Pagina_inicial.html">Voltar</a></li>
+                </ul>
+            </li>
+    </nav>
+    <header>
+        <form action="formulario" method="get">
+            <label for="nome">Nome</label>
+            <input type="text" required="required" name="text" pattern="[A-z\s]{8,20}$"  placeholder="Insira nome"/>         
+            <label for="email">Email</label>
+            <input type="email" required="required" class="input-text" value="" name="email"
+            placeholder="usuario@email.com" pattern="[A-z0-9._%+-]+@[A-z0-9.-]+\.[A-z]{2,4}$" />
+            <button  type="submit" class="botao" >Enviar</button>
+        </form>
+    </header>
+    
+</body>
+</html>

@@ -1,0 +1,20 @@
+nav ul{
+background-color: #000000;
+list-style: none;
+}
+nav ul li{
+display: inline;
+}
+nav ul li a{
+color: white 3;
+font-size: 25px;
+padding: 20px 20px;
+text-decoration: none;
+display:inline-block;
+}
+nav ul li a:hover{
+    color: silver;
+}
+.ul-submenu{
+    display: none;
+}
