@@ -6,8 +6,9 @@ nav ul li{
 display: inline;
 }
 nav ul li a{
+font-family: 'Crimson Pro', serif;
 color: white 3;
-font-size: 25px;
+font-size: 30px;
 padding: 20px 20px;
 text-decoration: none;
 display:inline-block;
