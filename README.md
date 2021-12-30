@@ -1,9 +1,9 @@
 #Iniciando projeto 
 
-inicie o projeto 
+Iniciando o projeto.
 
-verifiquei a disponibiladade das api
+Verifiquei a disponibiladade das Api.
 
 Preparando o layout, html, CSS.
 
-Projeto com validação de email atravez de api mailboxlayer.com
+Projeto com validação de email atravez de api mailboxlayer.com.
