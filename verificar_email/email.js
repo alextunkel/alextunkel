@@ -15,10 +15,10 @@ function verificaEmail(){
       })
        .catch(err => console.error(err));
 };
-
-///function fazGet(url){
-   /// let request = new XMLHttpRequest()
-  ///  request.open("GET", url, false)
-    //request.send("https://github.com/leostacowski/prog-bolsas-api")
-   // return request.responseText
-//};
+function envioForm(){
+   fetch('https://github.com/leostacowski/prog-bolsas-api'+ envioForm)
+   let request = new XMLHttpRequest()
+   request.open("GET", url, false)
+   request.send()
+   return request.responseText
+}
