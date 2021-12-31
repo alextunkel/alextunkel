@@ -15,18 +15,6 @@ function verificaEmail(){
       })
        .catch(err => console.error(err));
 };
-function formulario(){
-  
-    let request = new XMLHttpRequest('msg')
-    request.open("GET", url, false)
-     .then(response => response.Post())
-     .then(data =>{
-        console.log('formulario')
-   request.send='https://github.com/leostacowski/prog-bolsas-api'
-       alert('vc clicou no botao')
-   })
-     
-   return request.responseText
-}
+
  
   
