@@ -15,15 +15,18 @@ function verificaEmail(){
       })
        .catch(err => console.error(err));
 };
-function msg(){
+function formulario(){
   
-   if(iss($_POST["acao"])){
-      alert('vc clicou no botao')
-   }
+    let request = new XMLHttpRequest('msg')
+    request.open("GET", url, false)
+     .then(response => response.Post())
+     .then(data =>{
+        console.log('formulario')
+   request.send='https://github.com/leostacowski/prog-bolsas-api'
+       alert('vc clicou no botao')
+   })
+     
+   return request.responseText
 }
-//function envioForm(){
- //  let request = new XMLHttpRequest()
- //  request.open("GET", url, false)
- //  request.send('https://github.com/leostacowski/prog-bolsas-api')
- //  return request.responseText
-//}
+ 
+  
