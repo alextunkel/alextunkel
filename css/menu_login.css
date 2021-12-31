@@ -89,13 +89,11 @@ input[type=submit]{
     font-size:100%;
     margin: 5px 5px 5px;
 }
-#envioform:hover{
+.envioform:hover{
     cursor: pointer;
     background:#6979dd;
     font-size:100%;
 }
-
-
 .nivel1{
     font-size:15px;
     margin-left:230px;
