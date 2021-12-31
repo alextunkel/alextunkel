@@ -6,6 +6,7 @@ nav ul li{
 display: inline;
 }
 nav ul li a{
+font-size: fixed;
 font-family: 'Crimson Pro', serif;
 color: white 3;
 font-size: 35px;
@@ -19,3 +20,7 @@ nav ul li a:hover{
 .ul-submenu{
     display: none;
 }
+.imagen{
+    width:100%;
+}
+

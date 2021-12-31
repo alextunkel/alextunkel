@@ -8,17 +8,22 @@ function verificaEmail(){
 
         if(data.smtp_check)
         {
-           alert('Email Valido')
+           alert('Email Valido. Acesso concedido!!')
         }else{
-           alert('Email invalido')
+           alert('Email invalido.Acesso negado')
         }
       })
        .catch(err => console.error(err));
 };
-function envioForm(){
-   fetch('https://github.com/leostacowski/prog-bolsas-api'+ envioForm)
-   let request = new XMLHttpRequest()
-   request.open("GET", url, false)
-   request.send()
-   return request.responseText
+function msg(){
+  
+   if(iss($_POST["acao"])){
+      alert('vc clicou no botao')
+   }
 }
+//function envioForm(){
+ //  let request = new XMLHttpRequest()
+ //  request.open("GET", url, false)
+ //  request.send('https://github.com/leostacowski/prog-bolsas-api')
+ //  return request.responseText
+//}
