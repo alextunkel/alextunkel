@@ -19,7 +19,6 @@ function enviarFormulario(){
    const nome=document.getElementById('nome').value;
    const cidade =document.getElementById('cidade').value;
    const emailUsuario= document.getElementById('emailValue').value;
-   //const formulario=document.querySelector('#envia_formulario').value;
-  
-        send.URL='https://github.com/leostacowski/prog-bolsas-api'
-      };
+  enviarFormulario.post=('https://github.com/leostacowski/prog-bolsas-api')
+  console.log(body)
+};
