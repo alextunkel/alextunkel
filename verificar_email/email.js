@@ -15,10 +15,4 @@ function verificaEmail(){
       })
        .catch(err => console.error(err));
 };
-function enviarFormulario(){
-   const nome=document.getElementById('nome').value;
-   const cidade =document.getElementById('cidade').value;
-   const emailUsuario= document.getElementById('emailValue').value;
-  enviarFormulario.post=('https://github.com/leostacowski/prog-bolsas-api')
-  console.log(body)
-};
+

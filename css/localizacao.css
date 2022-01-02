@@ -1,8 +1,11 @@
-body{
+body {
+   
+    background-color: #cccccc;
+}nav {
     background-color: #000000;
     list-style: none;
     font-weight: 25px;
-}
+    }
 nav ul li a{
     margin: 15px 20px;
     color: white ;

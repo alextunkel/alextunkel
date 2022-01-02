@@ -1,4 +1,8 @@
-nav {
+
+body {
+   
+    background-color: #cccccc;
+}nav {
     background-color: #000000;
     list-style: none;
     font-weight: 25px;
